@@ -21,6 +21,7 @@ describe('sayHiToGrandma(string)',
 function sayHiToGrandma(string) {
   console.log('HELLO')
   expect(sayHiToGrandma('HELLO')).toEqual("YES INDEED!")
+  return string.toUpperCase
 })
 describe('sayHiToGrandma(string)',
 function sayHiToGrandma(string) {
