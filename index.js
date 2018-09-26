@@ -27,5 +27,6 @@ function sayHiToGrandma(string) {
 describe('sayHiToGrandma(string)',
 function sayHiToGrandma(string) {
   console.log("I love you, Grandma.")
+  
   return string("I love you, too.")
 })
