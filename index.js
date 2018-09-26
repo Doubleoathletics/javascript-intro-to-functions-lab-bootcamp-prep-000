@@ -19,7 +19,8 @@ function sayHiToGrandma(string) {
   console.log('HELLO')
   return string.toUpperCase ("YES INDEED!")
 }
-function sayHiToGrandma(string) {
+describe('sayHiToGrandma(hello)',
+function(sayHiToGrandma(string) {
   console.log("I love you, Grandma.")
   return("I love you, too.")
 }
