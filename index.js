@@ -16,13 +16,11 @@ describe('sayHiToGrandma(string)',
 function sayHiToGrandma(string) {
   console.log('hello')
   expect(sayHiToGrandma('hello')).toEqual("I can't hear you!")
-  return string.toLowerCase("I can't hear you!")
 })
 describe('sayHiToGrandma(string)',
 function sayHiToGrandma(string) {
   console.log('HELLO')
   expect(sayHiToGrandma('HELLO')).toEqual("YES INDEED!")
-  return string.toUpperCase("YES INDEED!")
 })
 describe('sayHiToGrandma(string)',
 function sayHiToGrandma(string) {
