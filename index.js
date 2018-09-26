@@ -16,7 +16,7 @@ describe('sayHiToGrandma(string)',
 function sayHiToGrandma(string) {
   console.log('hello')
   return string.toLowerCase("I can't hear you!")
-} 
+}
 function sayHiToGrandma(string) {
   console.log('HELLO')
   return string.toUpperCase("YES INDEED!")
@@ -24,22 +24,6 @@ function sayHiToGrandma(string) {
 function sayHiToGrandma(string) {
   console.log("I love you, Grandma.")
   return string("I love you, too.")
-}
+  })
 })
-
-
-
-describe('sayHiToGrandma(hello)'
-function sayHiToGrandma(string) {
-  console.log('hello')
-  return string.toLowerCase ("I can't hear you!")
-function sayHiToGrandma(string) {
-  console.log('HELLO')
-  return string.toUpperCase ("YES INDEED!")
-}
-describe('sayHiToGrandma(hello)',
-function(sayHiToGrandma(string) {
-  console.log("I love you, Grandma.")
-  return("I love you, too.")
-}
 
