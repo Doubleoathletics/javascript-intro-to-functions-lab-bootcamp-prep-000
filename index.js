@@ -27,6 +27,6 @@ function sayHiToGrandma(string) {
 describe('sayHiToGrandma(string)',
 function sayHiToGrandma(string) {
   console.log("I love you, Grandma.")
-  
+  expect(sayHiToGrandma("I love you, Grandma.")).toEqual("I love you, too.")
   return string("I love you, too.")
 })
