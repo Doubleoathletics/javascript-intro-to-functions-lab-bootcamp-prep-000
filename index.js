@@ -15,7 +15,7 @@ function logWhisper(string) {
 describe('sayHiToGrandma(string)', 
 function sayHiToGrandma(string) {
   console.log('hello')
-  
+  expect(sayHiToGrandma('hello')).toEqual("I can't hear you!")
   return string.toLowerCase("I can't hear you!")
 })
 describe('sayHiToGrandma(string)',
