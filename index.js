@@ -16,11 +16,13 @@ describe('sayHiToGrandma(string)',
 function sayHiToGrandma(string) {
   console.log('hello')
   return string.toLowerCase("I can't hear you!")
-}
+})
+describe('sayHiToGrandma(string)',
 function sayHiToGrandma(string) {
   console.log('HELLO')
   return string.toUpperCase("YES INDEED!")
-}
+})
+
 function sayHiToGrandma(string) {
   console.log("I love you, Grandma.")
   return string("I love you, too.")
